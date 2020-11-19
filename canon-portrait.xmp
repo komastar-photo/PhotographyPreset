@@ -1,0 +1,71 @@
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c140 79.160451, 2017/05/06-01:08:21        ">
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about=""
+    xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
+   crs:PresetType="Normal"
+   crs:Cluster=""
+   crs:UUID="56A4279B8FE2F746B286BBF55B3BA964"
+   crs:SupportsAmount="False"
+   crs:SupportsColor="True"
+   crs:SupportsMonochrome="True"
+   crs:SupportsHighDynamicRange="True"
+   crs:SupportsNormalDynamicRange="True"
+   crs:SupportsSceneReferred="True"
+   crs:SupportsOutputReferred="True"
+   crs:CameraModelRestriction=""
+   crs:Copyright=""
+   crs:ContactInfo=""
+   crs:Version="12.4"
+   crs:ProcessVersion="11.0"
+   crs:ShadowTint="0"
+   crs:RedHue="-5"
+   crs:RedSaturation="+5"
+   crs:GreenHue="+5"
+   crs:GreenSaturation="+5"
+   crs:BlueHue="-5"
+   crs:BlueSaturation="+5"
+   crs:HasSettings="True">
+   <crs:Name>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default">canon-portrait</rdf:li>
+    </rdf:Alt>
+   </crs:Name>
+   <crs:ShortName>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default"/>
+    </rdf:Alt>
+   </crs:ShortName>
+   <crs:SortName>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default"/>
+    </rdf:Alt>
+   </crs:SortName>
+   <crs:Group>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default">komastar-portrait</rdf:li>
+    </rdf:Alt>
+   </crs:Group>
+   <crs:Description>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default"/>
+    </rdf:Alt>
+   </crs:Description>
+   <crs:Look>
+    <rdf:Description
+     crs:Name="Adobe Portrait"
+     crs:Amount="1.000000"
+     crs:UUID="D6496412E06A83789C499DF9540AA616"
+     crs:SupportsAmount="false"
+     crs:SupportsMonochrome="false"
+     crs:SupportsOutputReferred="false"
+     crs:Stubbed="true">
+    <crs:Group>
+     <rdf:Alt>
+      <rdf:li xml:lang="x-default">Profiles</rdf:li>
+     </rdf:Alt>
+    </crs:Group>
+    </rdf:Description>
+   </crs:Look>
+  </rdf:Description>
+ </rdf:RDF>
+</x:xmpmeta>
