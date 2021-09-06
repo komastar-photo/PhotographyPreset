@@ -4,7 +4,7 @@
     xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
    crs:PresetType="Normal"
    crs:Cluster=""
-   crs:UUID="B089958B3B93F544A3A4B09039251CD0"
+   crs:UUID="724C335494DC7A44A1D76931DD326EAB"
    crs:SupportsAmount="False"
    crs:SupportsColor="True"
    crs:SupportsMonochrome="True"
@@ -15,20 +15,25 @@
    crs:CameraModelRestriction=""
    crs:Copyright=""
    crs:ContactInfo=""
-   crs:Version="12.3"
+   crs:Version="13.3"
    crs:ProcessVersion="11.0"
-   crs:Saturation="0"
-   crs:Sharpness="70"
-   crs:LuminanceSmoothing="0"
-   crs:ColorNoiseReduction="25"
-   crs:ShadowTint="0"
-   crs:RedHue="0"
-   crs:RedSaturation="0"
-   crs:GreenHue="0"
-   crs:GreenSaturation="0"
-   crs:BlueHue="0"
-   crs:BlueSaturation="0"
+   crs:Contrast2012="-10"
+   crs:Highlights2012="-50"
+   crs:Shadows2012="+60"
+   crs:Whites2012="-75"
+   crs:Blacks2012="-75"
+   crs:Texture="-30"
+   crs:Clarity2012="+30"
+   crs:Dehaze="0"
    crs:Vibrance="0"
+   crs:Saturation="0"
+   crs:ParametricShadows="0"
+   crs:ParametricDarks="0"
+   crs:ParametricLights="0"
+   crs:ParametricHighlights="0"
+   crs:ParametricShadowSplit="25"
+   crs:ParametricMidtoneSplit="50"
+   crs:ParametricHighlightSplit="75"
    crs:HueAdjustmentRed="+5"
    crs:HueAdjustmentOrange="-10"
    crs:HueAdjustmentYellow="-5"
@@ -46,7 +51,7 @@
    crs:SaturationAdjustmentPurple="-15"
    crs:SaturationAdjustmentMagenta="-20"
    crs:LuminanceAdjustmentRed="+10"
-   crs:LuminanceAdjustmentOrange="+35"
+   crs:LuminanceAdjustmentOrange="+15"
    crs:LuminanceAdjustmentYellow="+25"
    crs:LuminanceAdjustmentGreen="-20"
    crs:LuminanceAdjustmentAqua="0"
@@ -58,28 +63,22 @@
    crs:SplitToningHighlightHue="0"
    crs:SplitToningHighlightSaturation="0"
    crs:SplitToningBalance="0"
-   crs:ParametricShadows="0"
-   crs:ParametricDarks="0"
-   crs:ParametricLights="0"
-   crs:ParametricHighlights="0"
-   crs:ParametricShadowSplit="25"
-   crs:ParametricMidtoneSplit="50"
-   crs:ParametricHighlightSplit="75"
-   crs:SharpenRadius="+1.0"
-   crs:SharpenDetail="25"
-   crs:SharpenEdgeMasking="0"
-   crs:ColorNoiseReductionDetail="50"
-   crs:ColorNoiseReductionSmoothness="50"
-   crs:Exposure2012="0.00"
-   crs:Contrast2012="-10"
-   crs:Highlights2012="-50"
-   crs:Shadows2012="+60"
-   crs:Whites2012="-75"
-   crs:Blacks2012="-75"
-   crs:Clarity2012="+30"
-   crs:Dehaze="0"
-   crs:Texture="-30"
-   crs:ToneCurveName="Custom"
+   crs:ColorGradeMidtoneHue="0"
+   crs:ColorGradeMidtoneSat="0"
+   crs:ColorGradeShadowLum="0"
+   crs:ColorGradeMidtoneLum="0"
+   crs:ColorGradeHighlightLum="0"
+   crs:ColorGradeBlending="50"
+   crs:ColorGradeGlobalHue="0"
+   crs:ColorGradeGlobalSat="0"
+   crs:ColorGradeGlobalLum="0"
+   crs:ShadowTint="0"
+   crs:RedHue="0"
+   crs:RedSaturation="0"
+   crs:GreenHue="0"
+   crs:GreenSaturation="0"
+   crs:BlueHue="0"
+   crs:BlueSaturation="0"
    crs:ToneCurveName2012="Custom"
    crs:HasSettings="True">
    <crs:Name>
@@ -107,16 +106,6 @@
      <rdf:li xml:lang="x-default"/>
     </rdf:Alt>
    </crs:Description>
-   <crs:ToneCurve>
-    <rdf:Seq>
-     <rdf:li>0, 0</rdf:li>
-     <rdf:li>32, 22</rdf:li>
-     <rdf:li>64, 56</rdf:li>
-     <rdf:li>128, 128</rdf:li>
-     <rdf:li>192, 196</rdf:li>
-     <rdf:li>255, 255</rdf:li>
-    </rdf:Seq>
-   </crs:ToneCurve>
    <crs:ToneCurvePV2012>
     <rdf:Seq>
      <rdf:li>0, 0</rdf:li>
@@ -150,7 +139,6 @@
      crs:SupportsAmount="false"
      crs:SupportsMonochrome="false"
      crs:SupportsOutputReferred="false"
-     crs:Copyright="© 2018 Adobe Systems, Inc."
      crs:Stubbed="true">
     <crs:Group>
      <rdf:Alt>

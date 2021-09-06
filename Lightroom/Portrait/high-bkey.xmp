@@ -4,7 +4,7 @@
     xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
    crs:PresetType="Normal"
    crs:Cluster=""
-   crs:UUID="B174A9D6DA670044815215AD18309324"
+   crs:UUID="4EE777FBB581594B8DFECC785B2D7F79"
    crs:SupportsAmount="False"
    crs:SupportsColor="True"
    crs:SupportsMonochrome="True"
@@ -17,16 +17,18 @@
    crs:ContactInfo=""
    crs:Version="13.3"
    crs:ProcessVersion="11.0"
-   crs:Contrast2012="+35"
+   crs:WhiteBalance="Custom"
+   crs:Temperature="3000"
+   crs:Tint="0"
+   crs:Contrast2012="-40"
    crs:Highlights2012="-50"
-   crs:Shadows2012="+60"
-   crs:Whites2012="-75"
-   crs:Blacks2012="-75"
-   crs:Texture="-30"
-   crs:Clarity2012="+30"
-   crs:Dehaze="0"
-   crs:Vibrance="0"
-   crs:Saturation="0"
+   crs:Shadows2012="+100"
+   crs:Whites2012="-100"
+   crs:Blacks2012="+100"
+   crs:Texture="-55"
+   crs:Clarity2012="-30"
+   crs:Vibrance="-20"
+   crs:Saturation="+20"
    crs:ParametricShadows="0"
    crs:ParametricDarks="0"
    crs:ParametricLights="0"
@@ -34,36 +36,36 @@
    crs:ParametricShadowSplit="25"
    crs:ParametricMidtoneSplit="50"
    crs:ParametricHighlightSplit="75"
-   crs:HueAdjustmentRed="+5"
-   crs:HueAdjustmentOrange="-10"
-   crs:HueAdjustmentYellow="-5"
-   crs:HueAdjustmentGreen="+15"
+   crs:HueAdjustmentRed="0"
+   crs:HueAdjustmentOrange="0"
+   crs:HueAdjustmentYellow="0"
+   crs:HueAdjustmentGreen="0"
    crs:HueAdjustmentAqua="0"
    crs:HueAdjustmentBlue="0"
-   crs:HueAdjustmentPurple="0"
-   crs:HueAdjustmentMagenta="0"
-   crs:SaturationAdjustmentRed="+5"
-   crs:SaturationAdjustmentOrange="-15"
-   crs:SaturationAdjustmentYellow="-25"
-   crs:SaturationAdjustmentGreen="+20"
-   crs:SaturationAdjustmentAqua="-20"
-   crs:SaturationAdjustmentBlue="+5"
-   crs:SaturationAdjustmentPurple="-15"
-   crs:SaturationAdjustmentMagenta="-20"
-   crs:LuminanceAdjustmentRed="+10"
-   crs:LuminanceAdjustmentOrange="+35"
-   crs:LuminanceAdjustmentYellow="+25"
-   crs:LuminanceAdjustmentGreen="-20"
+   crs:HueAdjustmentPurple="+45"
+   crs:HueAdjustmentMagenta="+55"
+   crs:SaturationAdjustmentRed="0"
+   crs:SaturationAdjustmentOrange="0"
+   crs:SaturationAdjustmentYellow="0"
+   crs:SaturationAdjustmentGreen="0"
+   crs:SaturationAdjustmentAqua="0"
+   crs:SaturationAdjustmentBlue="0"
+   crs:SaturationAdjustmentPurple="0"
+   crs:SaturationAdjustmentMagenta="0"
+   crs:LuminanceAdjustmentRed="0"
+   crs:LuminanceAdjustmentOrange="0"
+   crs:LuminanceAdjustmentYellow="0"
+   crs:LuminanceAdjustmentGreen="0"
    crs:LuminanceAdjustmentAqua="0"
    crs:LuminanceAdjustmentBlue="0"
-   crs:LuminanceAdjustmentPurple="+5"
-   crs:LuminanceAdjustmentMagenta="+5"
+   crs:LuminanceAdjustmentPurple="0"
+   crs:LuminanceAdjustmentMagenta="0"
    crs:SplitToningShadowHue="0"
    crs:SplitToningShadowSaturation="0"
    crs:SplitToningHighlightHue="0"
    crs:SplitToningHighlightSaturation="0"
    crs:SplitToningBalance="0"
-   crs:ColorGradeMidtoneHue="0"
+   crs:ColorGradeMidtoneHue="291"
    crs:ColorGradeMidtoneSat="0"
    crs:ColorGradeShadowLum="0"
    crs:ColorGradeMidtoneLum="0"
@@ -72,18 +74,20 @@
    crs:ColorGradeGlobalHue="0"
    crs:ColorGradeGlobalSat="0"
    crs:ColorGradeGlobalLum="0"
-   crs:ShadowTint="0"
-   crs:RedHue="-5"
-   crs:RedSaturation="+5"
-   crs:GreenHue="+5"
-   crs:GreenSaturation="+5"
-   crs:BlueHue="-5"
-   crs:BlueSaturation="+5"
+   crs:ShadowTint="-20"
+   crs:RedHue="0"
+   crs:RedSaturation="-50"
+   crs:GreenHue="+100"
+   crs:GreenSaturation="0"
+   crs:BlueHue="0"
+   crs:BlueSaturation="-25"
    crs:ToneCurveName2012="Custom"
-   crs:HasSettings="True">
+   crs:HasSettings="True"
+   crs:AsShotTemperature="3600"
+   crs:AsShotTint="28">
    <crs:Name>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">film-portrait</rdf:li>
+     <rdf:li xml:lang="x-default">high-bkey</rdf:li>
     </rdf:Alt>
    </crs:Name>
    <crs:ShortName>
@@ -108,11 +112,10 @@
    </crs:Description>
    <crs:ToneCurvePV2012>
     <rdf:Seq>
-     <rdf:li>0, 0</rdf:li>
-     <rdf:li>13, 0</rdf:li>
-     <rdf:li>62, 51</rdf:li>
-     <rdf:li>128, 135</rdf:li>
-     <rdf:li>255, 241</rdf:li>
+     <rdf:li>0, 17</rdf:li>
+     <rdf:li>57, 79</rdf:li>
+     <rdf:li>211, 207</rdf:li>
+     <rdf:li>255, 255</rdf:li>
     </rdf:Seq>
    </crs:ToneCurvePV2012>
    <crs:ToneCurvePV2012Red>
@@ -130,6 +133,7 @@
    <crs:ToneCurvePV2012Blue>
     <rdf:Seq>
      <rdf:li>0, 0</rdf:li>
+     <rdf:li>156, 164</rdf:li>
      <rdf:li>255, 255</rdf:li>
     </rdf:Seq>
    </crs:ToneCurvePV2012Blue>
